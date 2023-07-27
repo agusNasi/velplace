@@ -2,7 +2,7 @@ import { differenceInCalendarDays, format } from 'date-fns';
 
 export default function BookingDates({ booking, className }) {
   return (
-    <div className={'flex gap-1 ' + className}>
+    <div className={'flex gap-1 dates-info ' + className}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"

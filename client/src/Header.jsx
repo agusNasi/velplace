@@ -23,7 +23,7 @@ export default function Header() {
         </svg>
         <span className="font-bold text-xl">velplace</span>
       </Link>
-      <div className="flex gap-2 border border-gray-300 rounded-full py-2 px-4 shadow-md shadow-gray-300">
+      <div className="flex gap-2 border border-gray-300 rounded-full py-2 px-4 shadow-md shadow-gray-300 header-info">
         <div>Cualquier lugar</div>
         <div className="border-l border-gray-300"></div>
         <div>Cualquier semana</div>

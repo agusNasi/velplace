@@ -21,3 +21,31 @@ button {
 button.primary {
   @apply bg-primary p-2 w-full text-white rounded-2xl;
 }
+
+@media screen and (max-width: 800px) {
+  .header-info {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .booking-info {
+    flex-direction: column;
+  }
+  .place-info {
+    flex-direction: column;
+  }
+
+  .account-nav {
+    flex-direction: column;
+  }
+  .dates-info {
+    flex-direction: column;
+  }
+  .bookings-info {
+    flex-direction: column;
+  }
+  .booking-info {
+    flex-direction: column;
+  }
+}

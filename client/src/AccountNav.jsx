@@ -17,7 +17,7 @@ export default function AccountNav() {
   }
 
   return (
-    <nav className="w-full flex justify-center mt-8 gap-2 mb-8">
+    <nav className="w-full flex justify-center mt-8 gap-2 mb-8 account-nav">
       <Link className={linkClasses('profile')} to={'/account'}>
         <svg
           xmlns="http://www.w3.org/2000/svg"

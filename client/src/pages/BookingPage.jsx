@@ -27,7 +27,7 @@ export default function BookingPage() {
     <div className="my-8">
       <h1 className="text-3xl">{booking.place.title}</h1>
       <AddressLink className="my-2 block">{booking.place.address}</AddressLink>
-      <div className="bg-gray-200 p-6 my-6 rounded-2xl flex items-center justify-between">
+      <div className="bg-gray-200 p-6 my-6 rounded-2xl flex items-center justify-between booking-info">
         <div>
           <h2 className="text-2xl mb-4">Informacion de tu reserva</h2>
           <BookingDates booking={booking} />

@@ -51,7 +51,7 @@ export default function BookingWidget({ place }) {
         Precio: {place.price} / por noche
       </div>
       <div className="border rounded-2xl mt-4">
-        <div className="flex">
+        <div className="flex booking-info">
           <div className="py-3 px-4">
             <label>Check-in:</label>
             <input

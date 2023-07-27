@@ -22,7 +22,7 @@ export default function BookingsPage() {
           bookings.map((booking) => (
             <Link
               to={`/account/bookings/${booking._id}`}
-              className="flex mb-4 gap-4 bg-gray-200 rounded-2xl overflow-hidden"
+              className="flex mb-4 gap-4 bg-gray-200 rounded-2xl overflow-hidden bookings-info"
               key={booking._id}
             >
               <div className="w-48">
